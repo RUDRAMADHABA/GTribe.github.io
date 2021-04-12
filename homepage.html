@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-<title>Welcome to Glitter</title>
+<title>Welcome To Glitter</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="/css/all.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="css/all.css">
-<!--Css for the icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/style2.css">
 <style>
   body,
   h1,
@@ -43,13 +43,15 @@
   <!-- Navbar (sit on top) -->
   <div class="w3-top">
     <div class="w3-bar w3-white w3-card" id="myNavbar">
-      <a href="#home" class="w3-bar-item w3-button w3-wide"><i class="fab fa-google"></i>litter</a>
+      <a href="#home" class="w3-bar-item w3-button w3-wide"><i class="fab fa-google"></i>LITTER</a>
       <!-- Right-sided navbar links -->
       <div class="w3-right w3-hide-small">
         <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-        <a href="#team" class="w3-bar-item w3-button"><i class="fas fa-user-tie"></i> TEAM</a>
+        <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
         <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+        <a href="#GTribe" class="w3-bar-item w3-button"><i class="fab fa-google"></i> GTribe</a>
         <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+        <a href="#Location" class="w3-bar-item w3-button"><i class="fa fa-location-arrow"></i> Find Us</a>
       </div>
       <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -67,7 +69,9 @@
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
     <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
     <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+    <a href="#GTribe" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    <a href="#Location" class="w3-bar-item w3-button">Find Us</a>
   </nav>
 
   <!-- Header with full-height image -->
@@ -77,18 +81,22 @@
       <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
       <span class="w3-large">Stop wasting valuable time with projects that just isn't you.</span>
       <p><a href="#about"
-          class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more
-          and start today</a></p>
+          class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Join
+          Glitter today and be a part of GTribe</a></p>
+      <!--Put the link of google forms here by which people can join us-->
     </div>
-    <div class="w3-display-bottomleft w3-large" style="padding:24px 48px">
-      <div class="social-icons">
-        <a href="http://www.facebook.com/glitterfb" target="_blank"><i class="fab fa-facebook-f w3-hover-opacity"
-            style="z-index: 10; color: white; padding-right: 24px;"></i></a>
-        <a href="http://www.instagram.com/tech_glitter_official" target="_blank"><i
-            class="fab fa-instagram w3-hover-opacity" style="z-index: 10; color: white; padding-right: 24px;"></i></a>
-        <a href="http://www.linkedin.com/company/glitter-official" target="_blank"><i
-            class="fab fa-linkedin w3-hover-opacity" style="z-index: 10; color: white;"></i></a>
-      </div>
+    <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+      <a href="http://www.facebook.com/glitterfb" target="_blank" rel="noopener noreferrer" style="padding: 10px;">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      </a>
+      <a href="http://www.instagram.com/tech_glitter_official" target="_blank" rel="noopener noreferrer"
+        style="padding: 10px;">
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+      </a>
+      <a href="http://www.linkedin.com/company/glitter-official" target="_blank" rel="noopener noreferrer"
+        style="padding: 10px;">
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </a>
     </div>
   </header>
 
@@ -131,7 +139,7 @@
         <h3>We know design.</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et
           dolore.</p>
-        <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+        <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
       </div>
       <div class="w3-col m6">
         <img class="w3-image w3-round-large" src="/w3images/phone_buildings.jpg" alt="Buildings" width="700"
@@ -144,12 +152,12 @@
   <div class="w3-container" style="padding:128px 16px" id="team">
     <h3 class="w3-center">THE TEAM</h3>
     <p class="w3-center w3-large">The ones who runs this company</p>
-    <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-row-padding " style="margin-top:64px">
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-card">
-          <img src="img/arpan.jpg" alt="Aditya" style="width: 377px; height: 411px;" id="arpan" class="profile" style="object-fit:cover">
+          <img src="/img/arpan.jpg" alt="John" style="width:100%">
           <div class="w3-container">
-            <h3>Aditya Arpan </h3>
+            <h3>Aditya Arpan Sahoo</h3>
             <p class="w3-opacity">Managing Team</p>
             <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
             <p><a href="mailto:adityaarpansahoo@gmail.com?subject=Query" target="_blank" rel="noopener noreferrer"
@@ -163,12 +171,12 @@
       </div>
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-card">
-          <img src="img/biswajit.jpg" alt="Biswajit" style="width: 377px; height: 411px;" id="biswajit" class="profile">
+          <img src="/img/biswajit.jpg" alt="Jane" style="width:100%; height: 442px;">
           <div class="w3-container">
             <h3>Biswajit Sahoo</h3>
             <p class="w3-opacity">Managing Team</p>
             <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-            <p><a href="mailto:sahoosipun834@gmail.com?subject=" target="_blank" rel="noopener noreferrer"
+            <p><a href="mailto:sahoosipun834@gmail.com?subject=Query" target="_blank" rel="noopener noreferrer"
                 style="text-decoration: none;"><button class="w3-button w3-light-grey w3-block"><i
                     class="fa fa-envelope"></i> Contact</button></a></p>
             <p><a href="https://www.linkedin.com/in/biswajit-sahoo-5231781bb" target="_blank" rel="noopener noreferrer"
@@ -179,25 +187,26 @@
       </div>
       <div class="w3-col l3 m6 w3-margin-bottom">
         <div class="w3-card">
-          <img src="img/biswajit.jpg" alt="Biswajit" style="width: 377px; height: 411px;" id="biswajit" class="profile">
+          <img src="/img/omm.jpeg" alt="Mike" style="width:100%">
           <div class="w3-container">
-            <h3>Biswajit Sahoo</h3>
+            <h3>Omm Prakash Sahoo</h3>
             <p class="w3-opacity">Managing Team</p>
             <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-            <p><a href="mailto:sahoosipun834@gmail.com?subject=" target="_blank" rel="noopener noreferrer"
-                style="text-decoration: none;"><button class="w3-button w3-light-grey w3-block"><i
-                    class="fa fa-envelope"></i> Contact</button></a></p>
-            <p><a href="https://www.linkedin.com/in/biswajit-sahoo-5231781bb" target="_blank" rel="noopener noreferrer"
+            <p><a href="mailto:ommprakash.sahoo.eee20@iitbhu.ac.in?subject=Query" target="_blank"
+                rel="noopener noreferrer" style="text-decoration: none;"><button
+                  class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></a></p>
+            <p><a href="https://www.linkedin.com/in/omm-prakash-92a3a9162" target="_blank" rel="noopener noreferrer"
                 style="text-decoration: none;"><button class="w3-button w3-light-grey w3-block"><i
                     class="fab fa-linkedin"></i> Connect</button></a></p>
           </div>
         </div>
       </div>
       <div class="w3-col l3 m6 w3-margin-bottom">
+        <!--Replace this contact card with another one-->
         <div class="w3-card">
-          <img src="img/omm.jpeg" alt="Omm" style="width: 377px; height: 411px;" id="omm" class="profile">
+          <img src="/img/omm.jpeg" alt="Dan" style="width:100%">
           <div class="w3-container">
-            <h3>Omm Prakash</h3>
+            <h3>Omm Prakash Sahoo</h3>
             <p class="w3-opacity">Managing Team</p>
             <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
             <p><a href="mailto:ommprakash.sahoo.eee20@iitbhu.ac.in?subject=Query" target="_blank"
@@ -239,39 +248,39 @@
 
     <div class="w3-row-padding" style="margin-top:64px">
       <div class="w3-col l3 m6">
-        <img src="img/demo1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-          alt="A microphone">
+        <img src="/img/demo1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="An Application">
       </div>
       <div class="w3-col l3 m6">
-        <img src="img/demo2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-          alt="A phone">
+        <img src="/img/demo2.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="An Workspace">
       </div>
       <div class="w3-col l3 m6">
-        <img src="img/demo3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-          alt="A drone">
+        <img src="/img/demo3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="A Conference">
       </div>
       <div class="w3-col l3 m6">
-        <img src="img/demo4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-          alt="Soundbox">
+        <img src="/img/demo4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Conference Room">
       </div>
     </div>
 
     <div class="w3-row-padding w3-section">
       <div class="w3-col l3 m6">
-        <img src="img/demo5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-          alt="A tablet">
+        <img src="/img/demo5.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="An Office Lobby">
       </div>
       <div class="w3-col l3 m6">
-        <img src="img/demo6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-          alt="A camera">
+        <img src="/img/demo6.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="A Block of Code">
       </div>
       <div class="w3-col l3 m6">
-        <img src="img/demo7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-          alt="A typewriter">
+        <img src="/img/demo7.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="Project Management">
       </div>
       <div class="w3-col l3 m6">
-        <img src="img/demo8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-          alt="A tableturner">
+        <img src="/img/demo8.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+          alt="An Software Engineer">
       </div>
     </div>
   </div>
@@ -312,44 +321,103 @@
     </div>
   </div>
 
+  <!-- Post Section -->
+  <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="GTribe">
+    <h3>Introducing GTribe</h3>
+    <p class="w3-large">Take a look at who we have on our team.</p>
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Our Team</li>
+          <li class="w3-padding-16"><b>Visionary</b><br>(Presents foresight of future)</li>
+          <li class="w3-padding-16"><b>Thinker</b><br>(Think about new idea or approach)</li>
+          <li class="w3-padding-16"><b>Reader</b><br>(Read books and share the enlightment)</li>
+          <li class="w3-padding-16"><b>Tech</b><br>(Computer Geeks)</li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large">Join Us Now</button>
+            <!--put the link of google forms here for joining "join us"-->
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-red w3-xlarge w3-padding-48">Our Team</li>
+          <li class="w3-padding-16"><b>Graphic Designer</b><br>(Makes the world beautiful)</li>
+          <li class="w3-padding-16"><b>Content Writer</b><br>(Defeat the sword with pen)</li>
+          <li class="w3-padding-16"><b>Campus Ambassador</b><br>(Spread our vision)</li>
+          <li class="w3-padding-16"><b>Manager</b><br>(Manage the teams)</li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large">Join Us Now</button>
+            <!--put the link of google forms here for joining "join us"-->
+          </li>
+        </ul>
+      </div>
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Our Team</li>
+          <li class="w3-padding-16"><b>Marketing and Sales</b><br>(Convert our product to customer product)</li>
+          <li class="w3-padding-16"><b>Social Media Handler</b><br>(Our face to society)</li>
+          <li class="w3-padding-16"><b>Public Relations and Affairs</b><br>(For maintaining our status in the society)
+          </li>
+          <li class="w3-padding-16"><b>Tech</b><br>(Computer Geeks)</li>
+          <!--Edit this line and add one more post-->
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-black w3-padding-large">Join Us Now</button>
+            <!--put the link of google forms here for joining "join us"-->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
   <!-- Contact Section -->
   <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
     <h3 class="w3-center">CONTACT</h3>
     <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
     <div style="margin-top:48px">
-      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Bhubaneswar, India</p>
-      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 8144212431</p>
-      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: tech.gliterofficial@gmail.com</p>
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Bhubaneswar, INDIA</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 8144212431 | +91 8763012773 | +91
+        7873734822</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: tech.glitterofficial@gmail.com</p>
       <br>
-      <form action="/action_page.php" target="_blank">
+      <form action="/action_page.php" target="_blank">  <!--Collect contact information of those who will fill this form-->
         <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
         <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
         <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
         <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-        <p><a href="mailto:tech.glitterofficial@gmail.com?subject=Query" target="_blank"
-          rel="noopener noreferrer" style="text-decoration: none;"></a>
-          <button class="w3-button w3-black" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
+        <p>
+          <a href="mailto:tech.glitterofficial@gmail.com?subject=Query">
+            <button class="w3-button w3-black" type="submit">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </a>
         </p>
       </form>
       <!-- Image of location/map -->
-      <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+      <h3 class="w3-center" id="Location">Location</h3>
+      <p class="w3-center w3-large">Here we are. Please have a visit.</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d119743.40927376403!2d85.75041300357438!3d20.30103122330368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909d2d5170aa5%3A0xfc580e2b68b33fa8!2sBhubaneswar%2C%20Odisha!5e0!3m2!1sen!2sin!4v1618205769324!5m2!1sen!2sin"
+        width="800" height="600" style="border:0; margin-top: 10px;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </div>
 
   <!-- Footer -->
   <footer class="w3-center w3-black w3-padding-64">
     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-    <div class="w3-xlarge w3-section social-icons">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <div class="w3-xlarge w3-section">
+      <a href="http://www.facebook.com/glitterfb" target="_blank" rel="noopener noreferrer" style="padding: 10px;">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      </a>
+      <a href="http://www.instagram.com/tech_glitter_official" target="_blank" rel="noopener noreferrer"
+        style="padding: 10px;">
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+      </a>
+      <a href="http://www.linkedin.com/company/glitter-official" target="_blank" rel="noopener noreferrer"
+        style="padding: 10px;">
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </a>
     </div>
-    <p>Copyright &copy; Glitter. All rights reserved 2021.
   </footer>
 
   <script>
