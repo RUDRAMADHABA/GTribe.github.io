@@ -37,6 +37,8 @@
 
 h2.head1 {
   color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 30px;
 }
 
 p#content1 {
@@ -45,11 +47,18 @@ p#content1 {
 }
 
 .box2 {
-  height: 500px;
+  height: 650px;
   width: 400px;
-  margin-top: 40px;
+  padding: 34px;
+  margin-top: 70px;
   margin-left: 180px;
-  background-color: rgb(230, 172, 106);
+  background-color: #d8b7d9;
+}
+
+.box2 h1{
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 form.contact {
@@ -71,34 +80,6 @@ h5 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-p.form-text {
-  position: relative;
-  top: 15px;
-}
-
-input[type="text"] {
-  height: 30px;
-  width: 350px;
-  padding: 0px;
-  margin: 0px;
-}
-
-input[type="button"] {
-  position: relative;
-  top: 25px;
-  background-color: orange;
-  color: white;
-  font-size: 20px;
-  font-weight: bolder;
-  font-family: "Ubuntu Mono", monospace;
-  border-radius: 5px;
-  height: 40px;
-  width: 350px;
-}
-
-input[type="button"]:hover {
-  background-color: darkgoldenrod;
-}
 
 /* section2 */
 
@@ -110,15 +91,15 @@ input[type="button"]:hover {
 
 .box-1 {
   height: 80px;
-  width: 460px;
+  width: 400px;
   margin-top: 200px;
-  margin-left: 15px;
+  margin-left: 0px;
 }
 .box-2 {
   height: 80px;
   width: 460px;
   margin-top: 200px;
-  margin-left: 15px;
+  margin-left: 50px;
 }
 .box-3 {
   height: 80px;
@@ -166,6 +147,7 @@ p span{
   position: relative;
   top: 50px;
   left: 100px;
+  font-size: 30px;
 }
 
 #box2 {
@@ -187,6 +169,7 @@ p span{
   position: relative;
   top: 850px;
   left: 75px;
+  font-size: 30px;
 }
 
 #box4 {
@@ -208,6 +191,7 @@ p span{
   position: relative;
   top: -300px;
   left: 306px;
+  font-size: 30px;
 }
 
 #box5 {
@@ -226,15 +210,27 @@ p span{
 /* footer */
 hr {
   position: relative;
-  top: 450px;
+  bottom: -2600px;
 }
 .footer {
-  position: relative;
+  position: absolute;
   left: 550px;
-  top: 470px;
+  bottom: -2800px;
   height: 120px;
   width: 600px;
 }
+
+.footer ul {
+  display: flex;
+}
+.footer ul li {
+  list-style: none;
+  margin-left: -30px;
+  padding: 25px;
+  height: 30px;
+  width: 80px;
+}
+
 
 /* utilities */
 .text-center{
